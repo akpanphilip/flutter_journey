@@ -29,7 +29,7 @@ class BottomNav extends StatelessWidget {
         // notchMargin: 5.0,
         // shape: CircularNotchedRectangle(),
         child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceAround,
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           mainAxisSize: MainAxisSize.max,
           children: [
             Padding(

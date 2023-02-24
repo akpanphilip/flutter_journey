@@ -5,6 +5,7 @@ import 'screens/exercise_image.dart';
 import 'screens/exercise_icon.dart';
 import 'screens/exercise_container.dart';
 import 'screens/exercise_button.dart';
+import 'screens/exercise_appbar.dart';
 
 void main() => runApp(MyApp());
 
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      home: ButtonExercise(),
+      home: AppBarExercise(),
     );
   }
 }
